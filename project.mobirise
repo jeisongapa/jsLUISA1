@@ -51,7 +51,7 @@
     ],
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/logo-128x128.png",
-    "mbrsiteDomain": "xwxhw46hev",
+    "mbrsiteDomain": "s6dblhi4d9",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -393,7 +393,7 @@
     "index.html": {
       "settings": {
         "title": "Pactos",
-        "meta_descr": "Maestros espirituales especialistas en todo tipo de trabajos relacionados con el amor.",
+        "meta_descr": "Maestros espirituales especialistas en todo tipo de trabajos, pactos con lucifer.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
