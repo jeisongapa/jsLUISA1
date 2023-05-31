@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "amarres.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -51,7 +51,7 @@
     ],
     "imageResize": true,
     "favicon": "@PROJECT_PATH@/assets/images/l-1-128x128.png",
-    "mbrsiteDomain": "gz5ewzoift",
+    "mbrsiteDomain": "tqivg1otah",
     "robotsSwitcher": true,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -59,14 +59,16 @@
     "cookiesAlert": false,
     "gdpr": false,
     "site_lang": "es",
-    "uniqCompNum": 16,
+    "uniqCompNum": 27,
     "versionPublish": "5.7.4",
     "screenshot": "screenshot.png",
     "global_header_custom": "<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-PWQ3TZL');</script>\n<!-- End Google Tag Manager -->\n",
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-PWQ3TZL\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n\n\n",
     "global_footer_custom": "\n",
     "publishChangesOnly": true,
-    "robotsText": "User-agent: Mediapartners-Google\nDisallow: \n\nUser-agent: *\nDisallow: /search\nAllow: /\n"
+    "robotsText": "User-agent: Mediapartners-Google\nDisallow: \n\nUser-agent: *\nDisallow: /search\nAllow: /\n",
+    "cssOptimize": false,
+    "lazyLoad": false
   },
   "pages": {
     "amarres.html": {
@@ -260,7 +262,7 @@
               "text-align": "center"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header8 expertm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <header condition=\"showSocial\">Social</header>\n        <select title=\"Icons Align\" name=\"contentAlign\" condition=\"showSocial\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Social Title\" name=\"showSocialTitle\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"socialColor\" value=\"#C4CFDE\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 1\" name=\"socialBgColor1\" value=\"#1e2024\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 2\" name=\"socialBgColor2\" value=\"#23272b\" condition=\"showSocial\">\n        <input type=\"checkbox\" name=\"socialShadow\" title=\"Social Shadow\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"socialShadow1\" value=\"#191b1f\" condition=\"socialShadow && showSocial\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"socialShadow2\" value=\"#23272B\" condition=\"socialShadow && showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <header>Image</header>\n        <input type=\"checkbox\" name=\"imgBg\" title=\"Image BG\" checked>\n        <input type=\"color\" title=\"Image BG 1\" name=\"cardBg1\" value=\"#000000\" condition=\"imgBg\">\n        <input type=\"color\" title=\"Image BG 2\" name=\"cardBg2\" value=\"#ed0707\" condition=\"imgBg\">\n        <input type=\"checkbox\" name=\"cardShadow\" title=\"Image Shadow\" checked>\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"shadowColor1\" value=\"#000000\" condition=\"cardShadow\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"shadowColor2\" value=\"#ed0707\" condition=\"cardShadow\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/7a7cc3356d6626354b4afe93ecdce516-563x751.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-lg-5 col-img\">\n                <div class=\"img-wrapper\">\n                    <div class=\"img-box\">\n                        <img src=\"@PROJECT_PATH@/assets/images/c29bfe2869b8487d15c5648efdfaf5db-564x666.jpg\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    \n                </div>\n                \n            </div>\n            <div class=\"col-12 col-lg-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                        WELCOME TO MY WORLD\n                    </h1>\n                    <h1 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>AMARRES DE AMOR</b><br><b><br></b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Usaremos diferentes técnicas en relaciones de Pareja para ayudarle a que su ser amado regrese.<br><br>Utilizando la MAGIA ROJA, sin importar la edad o el género y sin causarle ningún daño.<br><br>\n                    </p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>\n                            CONTACTAR AHORA</a></div>\n                    \n                    <div class=\"social-container\" mbr-if=\"showSocial\">\n                        <p class=\"social-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSocialTitle\" data-app-selector=\".social-title\">\n                            FIND WITH ME\n                        </p>\n                        <div class=\"social-list {{contentAlign}}\">\n                            <div class=\"soc-item\" mbr-if=\"socialCount>0\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>5\">\n                                <span mbr-icon class=\"socicon-vimeo socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header8 expertm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <header condition=\"showSocial\">Social</header>\n        <select title=\"Icons Align\" name=\"contentAlign\" condition=\"showSocial\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Social Title\" name=\"showSocialTitle\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"socialColor\" value=\"#C4CFDE\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 1\" name=\"socialBgColor1\" value=\"#1e2024\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 2\" name=\"socialBgColor2\" value=\"#23272b\" condition=\"showSocial\">\n        <input type=\"checkbox\" name=\"socialShadow\" title=\"Social Shadow\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"socialShadow1\" value=\"#191b1f\" condition=\"socialShadow && showSocial\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"socialShadow2\" value=\"#23272B\" condition=\"socialShadow && showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <header>Image</header>\n        <input type=\"checkbox\" name=\"imgBg\" title=\"Image BG\" checked>\n        <input type=\"color\" title=\"Image BG 1\" name=\"cardBg1\" value=\"#000000\" condition=\"imgBg\">\n        <input type=\"color\" title=\"Image BG 2\" name=\"cardBg2\" value=\"#ed0707\" condition=\"imgBg\">\n        <input type=\"checkbox\" name=\"cardShadow\" title=\"Image Shadow\" checked>\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"shadowColor1\" value=\"#000000\" condition=\"cardShadow\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"shadowColor2\" value=\"#ed0707\" condition=\"cardShadow\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/parejas-95.webp\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-lg-5 col-img\">\n                <div class=\"img-wrapper\">\n                    <div class=\"img-box\">\n                        <img src=\"@PROJECT_PATH@/assets/images/parejas-95.webp\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    \n                </div>\n                \n            </div>\n            <div class=\"col-12 col-lg-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                        WELCOME TO MY WORLD\n                    </h1>\n                    <h1 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>AMARRES DE AMOR</b><br><b><br></b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Usaremos diferentes técnicas en relaciones de Pareja para ayudarle a que su ser amado regrese.<br><br>Utilizando la MAGIA ROJA, sin importar la edad o el género y sin causarle ningún daño.<br><br>\n                    </p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>\n                            CONTACTAR AHORA</a></div>\n                    \n                    <div class=\"social-container\" mbr-if=\"showSocial\">\n                        <p class=\"social-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSocialTitle\" data-app-selector=\".social-title\">\n                            FIND WITH ME\n                        </p>\n                        <div class=\"social-list {{contentAlign}}\">\n                            <div class=\"soc-item\" mbr-if=\"socialCount>0\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>5\">\n                                <span mbr-icon class=\"socicon-vimeo socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "aheader8-f",
@@ -490,7 +492,7 @@
               "text-align": "center"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header8 expertm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <header condition=\"showSocial\">Social</header>\n        <select title=\"Icons Align\" name=\"contentAlign\" condition=\"showSocial\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Social Title\" name=\"showSocialTitle\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"socialColor\" value=\"#C4CFDE\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 1\" name=\"socialBgColor1\" value=\"#1e2024\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 2\" name=\"socialBgColor2\" value=\"#23272b\" condition=\"showSocial\">\n        <input type=\"checkbox\" name=\"socialShadow\" title=\"Social Shadow\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"socialShadow1\" value=\"#191b1f\" condition=\"socialShadow && showSocial\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"socialShadow2\" value=\"#23272B\" condition=\"socialShadow && showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <header>Image</header>\n        <input type=\"checkbox\" name=\"imgBg\" title=\"Image BG\" checked>\n        <input type=\"color\" title=\"Image BG 1\" name=\"cardBg1\" value=\"#000000\" condition=\"imgBg\">\n        <input type=\"color\" title=\"Image BG 2\" name=\"cardBg2\" value=\"#ed0707\" condition=\"imgBg\">\n        <input type=\"checkbox\" name=\"cardShadow\" title=\"Image Shadow\" checked>\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"shadowColor1\" value=\"#000000\" condition=\"cardShadow\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"shadowColor2\" value=\"#ed0707\" condition=\"cardShadow\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/a9bc041060614da950442b0e2c808836-564x825.jpg\" selected parallax>\n            <input type=\"color\" title=\"Color\" value=\"#212428\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-lg-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                        WELCOME TO MY WORLD\n                    </h1>\n                    <h1 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>MAESTROS PODEROSOS</b><br><b><br></b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Usted no tendrá ningún riesgo al hacer este tipo de ritual, somos un grupo de poderosos brujos, santeros y chamanes con más de 40 años de experiencia.&nbsp;<br><br><br><br><br>\n                    </p>\n                    \n                    <div class=\"social-container\" mbr-if=\"showSocial\">\n                        <p class=\"social-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSocialTitle\" data-app-selector=\".social-title\">\n                            FIND WITH ME\n                        </p>\n                        <div class=\"social-list {{contentAlign}}\">\n                            <div class=\"soc-item\" mbr-if=\"socialCount>0\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>5\">\n                                <span mbr-icon class=\"socicon-vimeo socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-5 col-img\">\n                <div class=\"img-wrapper\">\n                    <div class=\"img-box\">\n                        <img src=\"@PROJECT_PATH@/assets/images/a9bc041060614da950442b0e2c808836-564x825.jpg\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    \n                </div>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>\n                            CONTACTAR AHORA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header8 expertm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <header condition=\"showSocial\">Social</header>\n        <select title=\"Icons Align\" name=\"contentAlign\" condition=\"showSocial\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Social Title\" name=\"showSocialTitle\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"socialColor\" value=\"#C4CFDE\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 1\" name=\"socialBgColor1\" value=\"#1e2024\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 2\" name=\"socialBgColor2\" value=\"#23272b\" condition=\"showSocial\">\n        <input type=\"checkbox\" name=\"socialShadow\" title=\"Social Shadow\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"socialShadow1\" value=\"#191b1f\" condition=\"socialShadow && showSocial\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"socialShadow2\" value=\"#23272B\" condition=\"socialShadow && showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <header>Image</header>\n        <input type=\"checkbox\" name=\"imgBg\" title=\"Image BG\" checked>\n        <input type=\"color\" title=\"Image BG 1\" name=\"cardBg1\" value=\"#000000\" condition=\"imgBg\">\n        <input type=\"color\" title=\"Image BG 2\" name=\"cardBg2\" value=\"#ed0707\" condition=\"imgBg\">\n        <input type=\"checkbox\" name=\"cardShadow\" title=\"Image Shadow\" checked>\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"shadowColor1\" value=\"#000000\" condition=\"cardShadow\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"shadowColor2\" value=\"#ed0707\" condition=\"cardShadow\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/amor-80.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-lg-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                        WELCOME TO MY WORLD\n                    </h1>\n                    <h1 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>MAESTROS PODEROSOS</b><br><b><br></b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Usted no tendrá ningún riesgo al hacer este tipo de ritual, somos un grupo de poderosos brujos, santeros y chamanes con más de 40 años de experiencia.&nbsp;<br><br><br><br><br>\n                    </p>\n                    \n                    <div class=\"social-container\" mbr-if=\"showSocial\">\n                        <p class=\"social-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSocialTitle\" data-app-selector=\".social-title\">\n                            FIND WITH ME\n                        </p>\n                        <div class=\"social-list {{contentAlign}}\">\n                            <div class=\"soc-item\" mbr-if=\"socialCount>0\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>5\">\n                                <span mbr-icon class=\"socicon-vimeo socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-5 col-img\">\n                <div class=\"img-wrapper\">\n                    <div class=\"img-box\">\n                        <img src=\"@PROJECT_PATH@/assets/images/amor-134.webp\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    \n                </div>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>\n                            CONTACTAR AHORA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
           "_PHPplaceholders": [],
           "_anchor": "aheader8-c",
@@ -541,9 +543,250 @@
           },
           "_name": "header11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/36572910b26446a84ceba5a67e922b95-687x1200.jpg\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Amarres de Amor</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Los amarres de amor dan fuerza a las relaciones que están en sus peores momentos, también ayudan a recuperar al ser amado que se ha alejado de tu vida.<br><br>Con los amarres de amor solucionamos problemas amorosos y te proporcionamos la felicidad que tanto ansías tener<br><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/amor-80.webp\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/amor-107.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Amarres de Amor</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Los amarres de amor dan fuerza a las relaciones que están en sus peores momentos, también ayudan a recuperar al ser amado que se ha alejado de tu vida.<br><br>Con los amarres de amor solucionamos problemas amorosos y te proporcionamos la felicidad que tanto ansías tener<br><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "sFF0SGinka",
           "_anchor": "header11-1",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "aheader8",
+          "_sourceTheme": "expertm5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".container": {
+              "padding-left": "10px",
+              "padding-right": "10px"
+            },
+            ".row": {
+              "margin-left": "-10px",
+              "margin-right": "-10px",
+              "justify-content": "center",
+              "> [class*=\"col\"]": {
+                "padding-left": "10px",
+                "padding-right": "10px"
+              }
+            },
+            ".col-img": {
+              "padding": "10px",
+              "@media (min-width: 992px)": {
+                "& when not (@reverseContent)": {
+                  "padding-left": "30px !important"
+                },
+                "& when (@reverseContent)": {
+                  "padding-right": "30px !important"
+                }
+              },
+              "@media (max-width: 991px) and (min-width: 767px)": {
+                "padding": "30px !important"
+              }
+            },
+            ".col-text": {
+              "display": "flex",
+              "align-items": "center",
+              "padding": "10px"
+            },
+            ".text-wrapper": {
+              "width": "100%",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "30px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ed0707",
+              "margin-bottom": "22px",
+              "a": {
+                "font-weight": "inherit",
+                "pointer-events": "none"
+              },
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px",
+              "padding-right": "16%",
+              "@media (max-width: 991px)": {
+                "padding-right": "0"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "20px"
+            },
+            ".social-container": {
+              "width": "100%",
+              "padding-top": "100px",
+              "@media (max-width: 991px)": {
+                "padding-top": "40px"
+              }
+            },
+            ".social-title": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px"
+            },
+            ".social-list": {
+              "display": "flex",
+              "align-items": "center",
+              "flex-wrap": "wrap",
+              "margin": "-10px -12px"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "position": "relative",
+              "margin": "10px 12px",
+              "min-width": "60px",
+              "padding": "10px",
+              "aspect-ratio": "(1 / 1)",
+              "border-radius": "6px",
+              "background": "linear-gradient(145deg, @socialBgColor1, @socialBgColor2)",
+              "& when (@socialShadow)": {
+                "box-shadow": "10px 10px 19px @socialShadow1, -10px -10px 19px @socialShadow2"
+              },
+              "transition": "0.4s all",
+              "&:before": {
+                "content": "\"\"",
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "z-index": "4",
+                "transition": "0.4s all",
+                "width": "100%",
+                "height": "100%",
+                "border-radius": "5px",
+                "background": "linear-gradient(to right bottom, #212428, #16181c)",
+                "opacity": "0"
+              },
+              ".mbr-iconfont": {
+                "position": "relative",
+                "z-index": "5",
+                "transition": "0.4s all",
+                "font-size": "22px",
+                "color": "@socialColor"
+              },
+              "&:hover": {
+                "transform": "translateY(-3px)",
+                "&:before": {
+                  "opacity": "1"
+                }
+              }
+            },
+            ".img-wrapper": {
+              "padding": "15px",
+              "border-radius": "6px",
+              "position": "relative",
+              "width": "100%",
+              "& when (@imgBg)": {
+                "background": "linear-gradient(to right, @cardBg1, @cardBg2)"
+              },
+              "& when (@cardShadow)": {
+                "box-shadow": "10px 10px 19px @shadowColor1, -10px -10px 19px @shadowColor2"
+              }
+            },
+            ".img-box": {
+              "width": "100%",
+              "border-radius": "6px",
+              "overflow": "hidden",
+              "img": {
+                "width": "100%",
+                "object-fit": "cover",
+                "aspect-ratio": "(700 / 933)"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header8 expertm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <header condition=\"showSocial\">Social</header>\n        <select title=\"Icons Align\" name=\"contentAlign\" condition=\"showSocial\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Social Title\" name=\"showSocialTitle\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"socialColor\" value=\"#C4CFDE\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 1\" name=\"socialBgColor1\" value=\"#1e2024\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 2\" name=\"socialBgColor2\" value=\"#23272b\" condition=\"showSocial\">\n        <input type=\"checkbox\" name=\"socialShadow\" title=\"Social Shadow\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"socialShadow1\" value=\"#191b1f\" condition=\"socialShadow && showSocial\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"socialShadow2\" value=\"#23272B\" condition=\"socialShadow && showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <header>Image</header>\n        <input type=\"checkbox\" name=\"imgBg\" title=\"Image BG\" checked>\n        <input type=\"color\" title=\"Image BG 1\" name=\"cardBg1\" value=\"#000000\" condition=\"imgBg\">\n        <input type=\"color\" title=\"Image BG 2\" name=\"cardBg2\" value=\"#ed0707\" condition=\"imgBg\">\n        <input type=\"checkbox\" name=\"cardShadow\" title=\"Image Shadow\" checked>\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"shadowColor1\" value=\"#000000\" condition=\"cardShadow\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"shadowColor2\" value=\"#ed0707\" condition=\"cardShadow\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/amor-80.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-lg-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                        WELCOME TO MY WORLD\n                    </h1>\n                    <h1 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>RECUPERA EL AMOR CON UN AMARRE&nbsp;&nbsp;</b><br><b><br></b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Tenemos experiencia en amarres de amor, ayudamos a que su pareja regrese<br><br><br><br><br>\n                    </p>\n                    \n                    <div class=\"social-container\" mbr-if=\"showSocial\">\n                        <p class=\"social-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSocialTitle\" data-app-selector=\".social-title\">\n                            FIND WITH ME\n                        </p>\n                        <div class=\"social-list {{contentAlign}}\">\n                            <div class=\"soc-item\" mbr-if=\"socialCount>0\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>5\">\n                                <span mbr-icon class=\"socicon-vimeo socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-5 col-img\">\n                <div class=\"img-wrapper\">\n                    <div class=\"img-box\">\n                        <img src=\"@PROJECT_PATH@/assets/images/amor-48.webp\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    \n                </div>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>\n                            CONTACTAR AHORA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "aheader8-g",
+          "_isUserblock": true,
+          "_cid": "tFRnHi6rNX",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".row": {
+              "align-items": "center"
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ff0000"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "header11",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/amor-26.webp\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/amor-87.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>UNIÓN DE PAREJAS</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Contáctanos, lograremos recuperar el amor que tenias con tu pareja y puedas disfrutarlo por mucho tiempo<br><br>Nuestros expertos lograrán que esa persona reviva la llama del amor y no se aleje de tu vida<br><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "header11-h",
+          "_isUserblock": true,
+          "_cid": "tFRnIetXt6",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
@@ -709,7 +952,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": "1"
+        "order": "2"
       },
       "components": [
         {
@@ -752,7 +995,7 @@
           },
           "_name": "header11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/p1-564x701.jpg\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Pactos con Lucifer</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Usted Podrá mejorar su vida económica, su vida haciendo un poderoso pacto con nuestro padre lucifer.\n<br>\n<br>contáctese con el Maestro Superior  para ver si puede ser elegido.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/altares-28.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Pactos con Lucifer</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Usted Podrá mejorar su vida económica, su vida haciendo un poderoso pacto con nuestro padre lucifer.\n<br>\n<br>contáctese con el Maestro Superior  para ver si puede ser elegido.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tt4do5CvRp",
           "_anchor": "pactos",
           "_PHPplaceholders": [],
@@ -864,7 +1107,7 @@
           },
           "_name": "header11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/p2-261x375.jpg\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Pactos Iluminati</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Los Illuminati son una organización de élite de líderes mundiales, autoridades empresariales, innovadores, artistas y otros miembros influyentes de este planeta.\n<br>\n<br>Contactese con el Maestro Superior y si cumple los requisitos usted podrá ser parte de esta comunidad.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/pactos-2-24.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Pactos Iluminati</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Los Illuminati son una organización de élite de líderes mundiales, autoridades empresariales, innovadores, artistas y otros miembros influyentes de este planeta.\n<br>\n<br>Contactese con el Maestro Superior y si cumple los requisitos usted podrá ser parte de esta comunidad.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_isUserblock": true,
           "_cid": "tt4do6hblz",
           "_anchor": "iluminati",
@@ -915,7 +1158,7 @@
           },
           "_name": "header11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/p3-563x828.jpg\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Cura de Enfermedades</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Si tiene una enfermedad que los medicos no han podido curar, Probablemente sea producto de un maleficio o un hechizo, Podemos ayudarle a recuperar su vitalidad y devolverle este conjuro a la persona que te lo hizo.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/pactos-2-9.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Cura de Enfermedades</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Si tiene una enfermedad que los medicos no han podido curar, Probablemente sea producto de un maleficio o un hechizo, Podemos ayudarle a recuperar su vitalidad y devolverle este conjuro a la persona que te lo hizo.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "cura",
           "_isUserblock": true,
           "_cid": "tt4exL5uj1",
@@ -966,7 +1209,7 @@
           },
           "_name": "header11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/p5.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Vende tu Alma Por Dinero</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Podrás tener todas las riquesas y lujos que siempre soñaste, haciendo una pequeña ofrenda a nuestro padre lucifer.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/pactos-4.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Vende tu Alma Por Dinero</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Podrás tener todas las riquesas y lujos que siempre soñaste, haciendo una pequeña ofrenda a nuestro padre lucifer.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "dinero",
           "_isUserblock": true,
           "_cid": "tt4eyzHqMZ",
@@ -1017,7 +1260,7 @@
           },
           "_name": "header11",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/p4-308x589.jpg\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Vuélvete Famoso</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Haz un pacto a cambio de fama, y consigue ser una gran estrella, Sé parte de la elite iluminati.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/altares-30.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Vuélvete Famoso</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Haz un pacto a cambio de fama, y consigue ser una gran estrella, Sé parte de la elite iluminati.</p>\n                    <div mbr-buttons mbr-theme-style=\"display-7\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "fama",
           "_isUserblock": true,
           "_cid": "tt4ezdiOzm",
@@ -1127,6 +1370,880 @@
           "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../components/_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2023 Templo Espiritual - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tt4do6YmNE",
           "_anchor": "footer7-7",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    },
+    "limpias.html": {
+      "settings": {
+        "title": "Limpias Espirituales",
+        "meta_descr": "Ofrecemos limpiezas espirituales para ayudarte a superar los obstáculos emocionales y avanzar hacia la felicidad",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": "1"
+      },
+      "components": [
+        {
+          "_name": "aheader8",
+          "_sourceTheme": "expertm5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".container": {
+              "padding-left": "10px",
+              "padding-right": "10px"
+            },
+            ".row": {
+              "margin-left": "-10px",
+              "margin-right": "-10px",
+              "justify-content": "center",
+              "> [class*=\"col\"]": {
+                "padding-left": "10px",
+                "padding-right": "10px"
+              }
+            },
+            ".col-img": {
+              "padding": "10px",
+              "@media (min-width: 992px)": {
+                "& when not (@reverseContent)": {
+                  "padding-left": "30px !important"
+                },
+                "& when (@reverseContent)": {
+                  "padding-right": "30px !important"
+                }
+              },
+              "@media (max-width: 991px) and (min-width: 767px)": {
+                "padding": "30px !important"
+              }
+            },
+            ".col-text": {
+              "display": "flex",
+              "align-items": "center",
+              "padding": "10px"
+            },
+            ".text-wrapper": {
+              "width": "100%",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "30px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ed0707",
+              "margin-bottom": "22px",
+              "a": {
+                "font-weight": "inherit",
+                "pointer-events": "none"
+              },
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px",
+              "padding-right": "16%",
+              "@media (max-width: 991px)": {
+                "padding-right": "0"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "20px"
+            },
+            ".social-container": {
+              "width": "100%",
+              "padding-top": "100px",
+              "@media (max-width: 991px)": {
+                "padding-top": "40px"
+              }
+            },
+            ".social-title": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px"
+            },
+            ".social-list": {
+              "display": "flex",
+              "align-items": "center",
+              "flex-wrap": "wrap",
+              "margin": "-10px -12px"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "position": "relative",
+              "margin": "10px 12px",
+              "min-width": "60px",
+              "padding": "10px",
+              "aspect-ratio": "(1 / 1)",
+              "border-radius": "6px",
+              "background": "linear-gradient(145deg, @socialBgColor1, @socialBgColor2)",
+              "& when (@socialShadow)": {
+                "box-shadow": "10px 10px 19px @socialShadow1, -10px -10px 19px @socialShadow2"
+              },
+              "transition": "0.4s all",
+              "&:before": {
+                "content": "\"\"",
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "z-index": "4",
+                "transition": "0.4s all",
+                "width": "100%",
+                "height": "100%",
+                "border-radius": "5px",
+                "background": "linear-gradient(to right bottom, #212428, #16181c)",
+                "opacity": "0"
+              },
+              ".mbr-iconfont": {
+                "position": "relative",
+                "z-index": "5",
+                "transition": "0.4s all",
+                "font-size": "22px",
+                "color": "@socialColor"
+              },
+              "&:hover": {
+                "transform": "translateY(-3px)",
+                "&:before": {
+                  "opacity": "1"
+                }
+              }
+            },
+            ".img-wrapper": {
+              "padding": "15px",
+              "border-radius": "6px",
+              "position": "relative",
+              "width": "100%",
+              "& when (@imgBg)": {
+                "background": "linear-gradient(to right, @cardBg1, @cardBg2)"
+              },
+              "& when (@cardShadow)": {
+                "box-shadow": "10px 10px 19px @shadowColor1, -10px -10px 19px @shadowColor2"
+              }
+            },
+            ".img-box": {
+              "width": "100%",
+              "border-radius": "6px",
+              "overflow": "hidden",
+              "img": {
+                "width": "100%",
+                "object-fit": "cover",
+                "aspect-ratio": "(700 / 933)"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header8 expertm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <header condition=\"showSocial\">Social</header>\n        <select title=\"Icons Align\" name=\"contentAlign\" condition=\"showSocial\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Social Title\" name=\"showSocialTitle\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"socialColor\" value=\"#C4CFDE\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 1\" name=\"socialBgColor1\" value=\"#1e2024\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 2\" name=\"socialBgColor2\" value=\"#23272b\" condition=\"showSocial\">\n        <input type=\"checkbox\" name=\"socialShadow\" title=\"Social Shadow\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"socialShadow1\" value=\"#191b1f\" condition=\"socialShadow && showSocial\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"socialShadow2\" value=\"#23272B\" condition=\"socialShadow && showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <header>Image</header>\n        <input type=\"checkbox\" name=\"imgBg\" title=\"Image BG\" checked>\n        <input type=\"color\" title=\"Image BG 1\" name=\"cardBg1\" value=\"#000000\" condition=\"imgBg\">\n        <input type=\"color\" title=\"Image BG 2\" name=\"cardBg2\" value=\"#ed0707\" condition=\"imgBg\">\n        <input type=\"checkbox\" name=\"cardShadow\" title=\"Image Shadow\" checked>\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"shadowColor1\" value=\"#000000\" condition=\"cardShadow\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"shadowColor2\" value=\"#ed0707\" condition=\"cardShadow\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/limpias-74.webp\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-lg-5 col-img\">\n                <div class=\"img-wrapper\">\n                    <div class=\"img-box\">\n                        <img src=\"@PROJECT_PATH@/assets/images/limpias-74.webp\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    \n                </div>\n                \n            </div>\n            <div class=\"col-12 col-lg-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                        WELCOME TO MY WORLD\n                    </h1>\n                    <h1 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>¿Te sientes atrapado en patrones de pensamiento negativos o emociones tóxicas?&nbsp;</b><br><b><br></b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Nuestros expertos pueden ayudarte a liberarte de la energía negativa y encontrar una sensación de paz y equilibrio. <br><br>Ofrecemos limpiezas espirituales para ayudarte a superar los obstáculos emocionales y avanzar hacia la felicidad.<br><br>\n                    </p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>\n                            CONTACTAR AHORA</a></div>\n                    \n                    <div class=\"social-container\" mbr-if=\"showSocial\">\n                        <p class=\"social-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSocialTitle\" data-app-selector=\".social-title\">\n                            FIND WITH ME\n                        </p>\n                        <div class=\"social-list {{contentAlign}}\">\n                            <div class=\"soc-item\" mbr-if=\"socialCount>0\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>5\">\n                                <span mbr-icon class=\"socicon-vimeo socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            \n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "tFRxhxzX0l",
+          "_anchor": "aheader8-i",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "contacts01",
+          "_sourceTheme": "researchm4",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "@media (max-width: 991px)": {
+              ".mbr-section-title, .mbr-section-subtitle, .mbr-section-btn, .mbr-text": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ffffff"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#fa0000"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"contacts1\" group=\"Contacts\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"9\" step=\"1\">\n        <select title=\"Align\" name=\"contentAlign\">\n            <option value selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/i%20(39)-1024x1024.png\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row {{contentAlign}}\">\n            <div class=\"col-12 col-lg-{{textWidth}}\">\n                <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><b>Title</b></h1>\n                <h2 class=\"mbr-section-subtitle mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubitle\">TRABAJOS CON MAGIA ROJA</h2>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\"><br>Contáctanos ahora mismo para mostrarle los métodos poco conocidos para recuperar al ser amado.&nbsp;<br><br>Contáctanos al +1 714 982 9177</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\"><a class=\"btn btn-lg btn-secondary\" href=\"tel:17149829177\" data-app-placeholder=\"Type Text\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR&nbsp;</a> <a class=\"btn btn-lg btn-info\" href=\"tel:17149829177\" data-app-placeholder=\"Type Text\"><span class=\"mobi-mbri mobi-mbri-phone mbr-iconfont mbr-iconfont-btn\"></span>LLAMAR&nbsp;</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "tFRxhy0lkt",
+          "_anchor": "contacts01-j",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "aheader8",
+          "_sourceTheme": "expertm5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".container": {
+              "padding-left": "10px",
+              "padding-right": "10px"
+            },
+            ".row": {
+              "margin-left": "-10px",
+              "margin-right": "-10px",
+              "justify-content": "center",
+              "> [class*=\"col\"]": {
+                "padding-left": "10px",
+                "padding-right": "10px"
+              }
+            },
+            ".col-img": {
+              "padding": "10px",
+              "@media (min-width: 992px)": {
+                "& when not (@reverseContent)": {
+                  "padding-left": "30px !important"
+                },
+                "& when (@reverseContent)": {
+                  "padding-right": "30px !important"
+                }
+              },
+              "@media (max-width: 991px) and (min-width: 767px)": {
+                "padding": "30px !important"
+              }
+            },
+            ".col-text": {
+              "display": "flex",
+              "align-items": "center",
+              "padding": "10px"
+            },
+            ".text-wrapper": {
+              "width": "100%",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "30px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ed0707",
+              "margin-bottom": "22px",
+              "a": {
+                "font-weight": "inherit",
+                "pointer-events": "none"
+              },
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px",
+              "padding-right": "16%",
+              "@media (max-width: 991px)": {
+                "padding-right": "0"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "20px"
+            },
+            ".social-container": {
+              "width": "100%",
+              "padding-top": "100px",
+              "@media (max-width: 991px)": {
+                "padding-top": "40px"
+              }
+            },
+            ".social-title": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px"
+            },
+            ".social-list": {
+              "display": "flex",
+              "align-items": "center",
+              "flex-wrap": "wrap",
+              "margin": "-10px -12px"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "position": "relative",
+              "margin": "10px 12px",
+              "min-width": "60px",
+              "padding": "10px",
+              "aspect-ratio": "(1 / 1)",
+              "border-radius": "6px",
+              "background": "linear-gradient(145deg, @socialBgColor1, @socialBgColor2)",
+              "& when (@socialShadow)": {
+                "box-shadow": "10px 10px 19px @socialShadow1, -10px -10px 19px @socialShadow2"
+              },
+              "transition": "0.4s all",
+              "&:before": {
+                "content": "\"\"",
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "z-index": "4",
+                "transition": "0.4s all",
+                "width": "100%",
+                "height": "100%",
+                "border-radius": "5px",
+                "background": "linear-gradient(to right bottom, #212428, #16181c)",
+                "opacity": "0"
+              },
+              ".mbr-iconfont": {
+                "position": "relative",
+                "z-index": "5",
+                "transition": "0.4s all",
+                "font-size": "22px",
+                "color": "@socialColor"
+              },
+              "&:hover": {
+                "transform": "translateY(-3px)",
+                "&:before": {
+                  "opacity": "1"
+                }
+              }
+            },
+            ".img-wrapper": {
+              "padding": "15px",
+              "border-radius": "6px",
+              "position": "relative",
+              "width": "100%",
+              "& when (@imgBg)": {
+                "background": "linear-gradient(to right, @cardBg1, @cardBg2)"
+              },
+              "& when (@cardShadow)": {
+                "box-shadow": "10px 10px 19px @shadowColor1, -10px -10px 19px @shadowColor2"
+              }
+            },
+            ".img-box": {
+              "width": "100%",
+              "border-radius": "6px",
+              "overflow": "hidden",
+              "img": {
+                "width": "100%",
+                "object-fit": "cover",
+                "aspect-ratio": "(700 / 933)"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header8 expertm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <header condition=\"showSocial\">Social</header>\n        <select title=\"Icons Align\" name=\"contentAlign\" condition=\"showSocial\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Social Title\" name=\"showSocialTitle\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"socialColor\" value=\"#C4CFDE\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 1\" name=\"socialBgColor1\" value=\"#1e2024\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 2\" name=\"socialBgColor2\" value=\"#23272b\" condition=\"showSocial\">\n        <input type=\"checkbox\" name=\"socialShadow\" title=\"Social Shadow\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"socialShadow1\" value=\"#191b1f\" condition=\"socialShadow && showSocial\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"socialShadow2\" value=\"#23272B\" condition=\"socialShadow && showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <header>Image</header>\n        <input type=\"checkbox\" name=\"imgBg\" title=\"Image BG\" checked>\n        <input type=\"color\" title=\"Image BG 1\" name=\"cardBg1\" value=\"#000000\" condition=\"imgBg\">\n        <input type=\"color\" title=\"Image BG 2\" name=\"cardBg2\" value=\"#ed0707\" condition=\"imgBg\">\n        <input type=\"checkbox\" name=\"cardShadow\" title=\"Image Shadow\" checked>\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"shadowColor1\" value=\"#000000\" condition=\"cardShadow\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"shadowColor2\" value=\"#ed0707\" condition=\"cardShadow\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/amor-80.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-lg-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                        WELCOME TO MY WORLD\n                    </h1>\n                    <h1 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>MAESTROS PODEROSOS</b><br><b><br></b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Usted no tendrá ningún riesgo al hacer este tipo de ritual, somos un grupo de poderosos brujos, santeros y chamanes con más de 40 años de experiencia.&nbsp;<br><br><br><br><br>\n                    </p>\n                    \n                    <div class=\"social-container\" mbr-if=\"showSocial\">\n                        <p class=\"social-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSocialTitle\" data-app-selector=\".social-title\">\n                            FIND WITH ME\n                        </p>\n                        <div class=\"social-list {{contentAlign}}\">\n                            <div class=\"soc-item\" mbr-if=\"socialCount>0\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>5\">\n                                <span mbr-icon class=\"socicon-vimeo socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-5 col-img\">\n                <div class=\"img-wrapper\">\n                    <div class=\"img-box\">\n                        <img src=\"@PROJECT_PATH@/assets/images/limpias-19.webp\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    \n                </div>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>\n                            CONTACTAR AHORA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "tFRxhyeftI",
+          "_anchor": "aheader8-k",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".row": {
+              "align-items": "center"
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ff0000"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "header11",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/limpias-101.webp\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/limpias-116.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Renueva tu energía</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Encuentra la claridad y la paz interior con nuestras limpiezas espirituales personalizadas.<br><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tFRxhyySLt",
+          "_anchor": "header11-l",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "aheader8",
+          "_sourceTheme": "expertm5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "overflow": "hidden",
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            ".mbr-fallback-image.disabled": {
+              "display": "none"
+            },
+            ".mbr-fallback-image": {
+              "display": "block",
+              "background-size": "cover",
+              "background-position": "center center",
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "top": "0",
+              "& when (@bg-type = 'video')": {
+                "background-image": "url(@fallBackImage)"
+              }
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".container": {
+              "padding-left": "10px",
+              "padding-right": "10px"
+            },
+            ".row": {
+              "margin-left": "-10px",
+              "margin-right": "-10px",
+              "justify-content": "center",
+              "> [class*=\"col\"]": {
+                "padding-left": "10px",
+                "padding-right": "10px"
+              }
+            },
+            ".col-img": {
+              "padding": "10px",
+              "@media (min-width: 992px)": {
+                "& when not (@reverseContent)": {
+                  "padding-left": "30px !important"
+                },
+                "& when (@reverseContent)": {
+                  "padding-right": "30px !important"
+                }
+              },
+              "@media (max-width: 991px) and (min-width: 767px)": {
+                "padding": "30px !important"
+              }
+            },
+            ".col-text": {
+              "display": "flex",
+              "align-items": "center",
+              "padding": "10px"
+            },
+            ".text-wrapper": {
+              "width": "100%",
+              "@media (max-width: 991px)": {
+                "margin-bottom": "30px"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#ed0707",
+              "margin-bottom": "22px",
+              "a": {
+                "font-weight": "inherit",
+                "pointer-events": "none"
+              },
+              "text-align": "center"
+            },
+            ".mbr-text": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px",
+              "padding-right": "16%",
+              "@media (max-width: 991px)": {
+                "padding-right": "0"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-top": "20px"
+            },
+            ".social-container": {
+              "width": "100%",
+              "padding-top": "100px",
+              "@media (max-width: 991px)": {
+                "padding-top": "40px"
+              }
+            },
+            ".social-title": {
+              "color": "#C4CFDE",
+              "margin-bottom": "20px"
+            },
+            ".social-list": {
+              "display": "flex",
+              "align-items": "center",
+              "flex-wrap": "wrap",
+              "margin": "-10px -12px"
+            },
+            ".soc-item": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "position": "relative",
+              "margin": "10px 12px",
+              "min-width": "60px",
+              "padding": "10px",
+              "aspect-ratio": "(1 / 1)",
+              "border-radius": "6px",
+              "background": "linear-gradient(145deg, @socialBgColor1, @socialBgColor2)",
+              "& when (@socialShadow)": {
+                "box-shadow": "10px 10px 19px @socialShadow1, -10px -10px 19px @socialShadow2"
+              },
+              "transition": "0.4s all",
+              "&:before": {
+                "content": "\"\"",
+                "position": "absolute",
+                "top": "0",
+                "left": "0",
+                "z-index": "4",
+                "transition": "0.4s all",
+                "width": "100%",
+                "height": "100%",
+                "border-radius": "5px",
+                "background": "linear-gradient(to right bottom, #212428, #16181c)",
+                "opacity": "0"
+              },
+              ".mbr-iconfont": {
+                "position": "relative",
+                "z-index": "5",
+                "transition": "0.4s all",
+                "font-size": "22px",
+                "color": "@socialColor"
+              },
+              "&:hover": {
+                "transform": "translateY(-3px)",
+                "&:before": {
+                  "opacity": "1"
+                }
+              }
+            },
+            ".img-wrapper": {
+              "padding": "15px",
+              "border-radius": "6px",
+              "position": "relative",
+              "width": "100%",
+              "& when (@imgBg)": {
+                "background": "linear-gradient(to right, @cardBg1, @cardBg2)"
+              },
+              "& when (@cardShadow)": {
+                "box-shadow": "10px 10px 19px @shadowColor1, -10px -10px 19px @shadowColor2"
+              }
+            },
+            ".img-box": {
+              "width": "100%",
+              "border-radius": "6px",
+              "overflow": "hidden",
+              "img": {
+                "width": "100%",
+                "object-fit": "cover",
+                "aspect-ratio": "(700 / 933)"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff",
+              "text-align": "center"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header8 expertm5\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\" checked>\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Social\" name=\"showSocial\">\n        <header condition=\"showSocial\">Social</header>\n        <select title=\"Icons Align\" name=\"contentAlign\" condition=\"showSocial\">\n            <option value=\"justify-content-start\" selected>Left</option>\n            <option value=\"justify-content-center\">Center</option>\n            <option value=\"justify-content-end\">Right</option>\n        </select>\n        <input type=\"checkbox\" title=\"Social Title\" name=\"showSocialTitle\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Social Color\" name=\"socialColor\" value=\"#C4CFDE\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 1\" name=\"socialBgColor1\" value=\"#1e2024\" condition=\"showSocial\">\n        <input type=\"color\" title=\"Social BG Color 2\" name=\"socialBgColor2\" value=\"#23272b\" condition=\"showSocial\">\n        <input type=\"checkbox\" name=\"socialShadow\" title=\"Social Shadow\" checked condition=\"showSocial\">\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"socialShadow1\" value=\"#191b1f\" condition=\"socialShadow && showSocial\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"socialShadow2\" value=\"#23272B\" condition=\"socialShadow && showSocial\">\n        <input type=\"range\" name=\"socialCount\" title=\"Social Count\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showSocial\">\n        <header>Image</header>\n        <input type=\"checkbox\" name=\"imgBg\" title=\"Image BG\" checked>\n        <input type=\"color\" title=\"Image BG 1\" name=\"cardBg1\" value=\"#000000\" condition=\"imgBg\">\n        <input type=\"color\" title=\"Image BG 2\" name=\"cardBg2\" value=\"#ed0707\" condition=\"imgBg\">\n        <input type=\"checkbox\" name=\"cardShadow\" title=\"Image Shadow\" checked>\n        <input type=\"color\" title=\"Shadow Color 1\" name=\"shadowColor1\" value=\"#000000\" condition=\"cardShadow\">\n        <input type=\"color\" title=\"Shadow Color 2\" name=\"shadowColor2\" value=\"#ed0707\" condition=\"cardShadow\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/amor-80.webp\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center align-items-center\">\n            <div class=\"col-12 col-lg-7 col-text\">\n                <div class=\"text-wrapper\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">\n                        WELCOME TO MY WORLD\n                    </h1>\n                    <h1 class=\"mbr-section-subtitle mbr-fonts-style\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\"><b>Bienestar espiritual</b><br><b><br></b></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">\n                        Encuentra un mayor sentido de propósito y dirección en la vida a través de la limpieza espiritual.<br><br><br><br><br>\n                    </p>\n                    \n                    <div class=\"social-container\" mbr-if=\"showSocial\">\n                        <p class=\"social-title mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSocialTitle\" data-app-selector=\".social-title\">\n                            FIND WITH ME\n                        </p>\n                        <div class=\"social-list {{contentAlign}}\">\n                            <div class=\"soc-item\" mbr-if=\"socialCount>0\">\n                                <span mbr-icon class=\"socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>1\">\n                                <span mbr-icon class=\"socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>2\">\n                                <span mbr-icon class=\"socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>3\">\n                                <span mbr-icon class=\"socicon-youtube socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>4\">\n                                <span mbr-icon class=\"socicon-behance socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                            <div class=\"soc-item\" mbr-if=\"socialCount>5\">\n                                <span mbr-icon class=\"socicon-vimeo socicon mbr-iconfont mbr-iconfont-social\"></span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"col-12 col-lg-5 col-img\">\n                <div class=\"img-wrapper\">\n                    <div class=\"img-box\">\n                        <img src=\"@PROJECT_PATH@/assets/images/limpias-68.webp\" alt=\"Mobirise Website Builder\">\n                    </div>\n                    \n                </div>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn custom-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>\n                            CONTACTAR AHORA</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_isUserblock": true,
+          "_cid": "tFRxhyM49W",
+          "_anchor": "aheader8-m",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@reverseContent)": {
+              ".row": {
+                "flex-direction": "row-reverse"
+              }
+            },
+            ".row": {
+              "align-items": "center"
+            },
+            ".image-wrapper": {
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              }
+            },
+            ".text-wrapper": {
+              "@media (min-width: 992px)": {
+                "padding": "0 2rem"
+              }
+            },
+            ".mbr-section-title": {
+              "color": "#ff0000"
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#ffffff"
+            }
+          },
+          "_name": "header11",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"header11\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline name=\"imageWidth\" title=\"Image\" min=\"4\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"checkbox\" title=\"Reverse\" name=\"reverseContent\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/limpias-245.webp\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#000000\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{imageWidth}} image-wrapper\">\n                <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/limpias-2-29.webp\" alt=\"Mobirise Website Builder\">\n            </div>\n            <div class=\"col-12 col-md\">\n                <div class=\"text-wrapper text-center\">\n                    <h1 class=\"mbr-section-title mbr-fonts-style mb-3\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">\n                        <b>\n</b><div><b><br></b></div><div><b>Elimina la negatividad</b></div></h1>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Descubre cómo la limpieza espiritual puede ayudarte a encontrar la renovación y el rejuvenecimiento que necesitas.<br><br></p>\n                    <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn mt-3\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR AHORA</a></div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "tFRxhz26xs",
+          "_anchor": "header11-n",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            ".line": {
+              "width": "55px",
+              "margin-bottom": "0.5rem",
+              "height": "5px",
+              "display": "inline-block",
+              "background": "linear-gradient(to left, @secondaryColor, @primaryColor)"
+            },
+            ".btn-col": {
+              "align-items": "flex-end",
+              "justify-content": "flex-end",
+              "display": "flex",
+              "@media (max-width: 767px)": {
+                "justify-content": "center"
+              }
+            },
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#999999"
+            },
+            "p": {
+              "margin": "0"
+            },
+            ".mbr-section-title, .title-wrapper": {
+              "color": "#ed0707"
+            }
+          },
+          "_name": "contacts1",
+          "_sourceTheme": "solutionm4",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"contacts1 solutionm4_contacts1\" group=\"Contacts\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Size</header>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"7\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"7\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showmainTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showmainText\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\" mbr-cards=\"bootstrap\">\n            <div class=\"col-lg-8 col-md-7 md-pb\">\n                <div class=\"title-wrapper align-left\">\n                    <div class=\"line\" mbr-if=\"showmainTitle\"></div>\n                    <h3 class=\"mbr-section-title mbr-white mbr-semibold pb-2 mbr-fonts-style\" data-app-selector=\".mbr-section-title, .title-wrapper\" mbr-theme-style=\"display-2\" mbr-if=\"showmainTitle\">Maestros en Limpias Espirituales.</h3>\n                    <p class=\"mbr-text mbr-white mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showmainText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Contáctanos para que descubra como puede mejorar su vida.</p>\n                </div>\n            </div>\n            <div class=\"col-lg-4 btn-col col-md-5 md-pb\">\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-sm btn-secondary\" href=\"https://contacto.guru/Lui1\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-whatsapp mbr-iconfont mbr-iconfont-btn\"></span>CONTACTAR</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "tFRxhzfVN4",
+          "_anchor": "contacts1-o",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "article3",
+          "_sourceTheme": "writerm5",
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@showBorder)": {
+              ".card": {
+                "border-bottom": "2px solid @color"
+              }
+            },
+            ".mbr-section-title": {
+              "margin-left": "80px",
+              "margin-right": "80px",
+              "color": "#b84358"
+            },
+            ".card": {
+              "margin": "48px 80px",
+              "padding-bottom": "48px",
+              "border-radius": "0"
+            },
+            ".card-header": {
+              "padding": "0",
+              "background-color": "transparent",
+              "border-bottom": "none"
+            },
+            ".panel-title": {
+              "display": "flex",
+              "justify-content": "space-between",
+              "align-items": "center"
+            },
+            ".panel-body p": {
+              "margin": "20px 10% 0 0"
+            },
+            ".sign": {
+              "font-size": "20px",
+              "font-weight": "700"
+            },
+            "@media (max-width: 922px)": {
+              ".card": {
+                "margin": "40px 0"
+              },
+              ".mbr-section-title": {
+                "margin-left": "0",
+                "margin-right": "0"
+              }
+            },
+            "@media (max-width: 768px)": {
+              ".card": {
+                "margin": "10px 0 40px"
+              }
+            },
+            "@media (max-width: 425px)": {
+              ".sign": {
+                "margin-left": "7px"
+              }
+            },
+            ".panel-text": {
+              "color": "#ffffff"
+            },
+            ".panel-title-edit": {
+              "color": "#ffffff"
+            }
+          },
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"article3\" group=\"Article\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow, mobirise-icons2\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"12\" step=\"1\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <select title=\"Amount\" name=\"cardAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <header>Border</header>\n        <input type=\"checkbox\" title=\"Border\" name=\"showBorder\" checked>\n        <input type=\"color\" title=\"Color\" name=\"color\" value=\"#191919\" condition=\"showBorder\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#000000\" selected>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/slide2.webp\" parallax>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-md-{{textWidth}}\">\n                <div class=\"mbr-section-head mb-4\" mbr-if=\"showTitle || showSubtitle\">\n                    <h2 class=\"mbr-section-title mbr-fonts-style mt-5 \" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\"><b>Términos y Condiciones</b></h2>\n                </div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card mb-3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\" mbr-if=\"showSubtitle\"><b>Términos y Condiciones</b></h6>\n                                <span class=\" panel-title-edit fa fa-chevron-down mbr-iconfont mbr-fonts-style\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">-Este sitio va dirigido exclusivamente a mayores de edad (18 años).\n<br>\n<br>-La consulta en vivo no tiene ningún costo, si una vez realizada la consulta el visitante está interesado por alguno de mis trabajos, puede solicitar más información sobre los costos establecidos del mismo. Estos costos son para cubrir gastos en materiales e insumos solamente, ya que no cobro por mis servicios. Al solicitar información, está aceptando que es solo porque así lo requiere y que está de acuerdo con el trabajo, las practicas del mismo y el costo.\n<br>\n<br>-De acuerdo con las legislaciones vigentes, se establece que las predicciones, videncias psíquicas, lecturas de cartas y hechizos tienen fines de entretenimiento y ayuda personal.\n<br>-Estos servicios no sustituirán la debida atención médica, legal, financiera, psicológica y psiquiátrica.\n<br>\n<br>-Todas las personas son diferentes, por tanto los resultados pueden variar de una persona a otra.\n<br>Los resultados ante cada caso son probables y no existe evidencia científica o eficacia de los mismos.\n<br>\n<br>-Al navegar en este sitio web el visitante declara que está de acuerdo con nuestros términos, políticas, y servicios prestados.\n<br>\n<br>-La información proporcionada por los usuarios de nuestros servicios es tratada de manera confidencial y en ningún momento se venderá dicha información.\n<br>\n<br>-El sitio web no recopila información de sus usuarios, exceptuando datos estadísticos recolectados por los diferentes motores de búsqueda.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\" mbr-if=\"showSubtitle\"><b>Costos de Ia Llamada/Contacto y pago por servicios</b></h6>\n                                <span class=\" panel-title-edit fa fa-chevron-down mbr-iconfont mbr-fonts-style\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">-Toda llamada o mensaje a nuestros números de contacto puede acarrear costos de acuerdo a su compañía telefónica.\n<br>\n<br>-Si desea contactarme utilizando Whatsapp, deberá tener una conexión estable a internet, lo que podría generar costos con su operador.\n<br>\n<br>-El contacto, así como la consulta, son totalmente gratuitos.\n<br>Los costos varían según la necesidad y el proceso realizado y dichos costos se utilizarán para los materiales del servicio solicitado por la persona.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\" mbr-if=\"showSubtitle\"><b>Garantía de los servicios</b></h6>\n                                <span class=\" panel-title-edit fa fa-chevron-down mbr-iconfont mbr-fonts-style\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">-Los resultados ante cada caso son probables y no hay certeza alguna a de que ocurran, quien consulte mi página web entenderá que no existe evidencia científica o eficacia de los mismos.\n<br>\n<br>-Los trabajos realizados son 100% efectivos, su éxito depende de tu fe y de tu compromiso.\n<br>Al solicitar una consulta usted está aceptando que es mayor de edad y que el único costo de la consulta es el que aplica en según el acuerdo al su operador de telefonía.\n<br>\n<br>-Si no está satisfecho con los servicios prestados no dude en contactarse nuevamente conmigo para atender sus dudas en inquietudes.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-title-edit\" mbr-if=\"showSubtitle\"><b>Políticas de Privacidad</b></h6>\n                                <span class=\" panel-title-edit fa fa-chevron-down mbr-iconfont mbr-fonts-style\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\"><br>Políticas de Privacidad\n<br>Todos los datos proporcionados por los usuarios serán tratados con confidencialidad, respeto y garantía de ser dinfundida por ningún medio.\n<br>este sitio solo recoge datos que el usuario está dispuesto a propoircionar como Nombre, E-mail, Número de teléfonos. Aclaramos que nosotros no recogemos datos de información´pon bancaria y que cada asesoría que brindamos es personalizada, la cual se debe hacer como primer contacto a través de nuestro sitio web.\n<br>\n<br>este sitio garantiza la seguridad al navegar a través de nuestro sitio web así como los datos personales dejados a través de este.\n<br>\n<br>Aclaramos que los datos proporcionados por cada usuario no son entregados a ningún tercero ni proporcionados a nadie con fines que no sean de su interés\n<br>\n<br>Esta página web utilización Google Analytics, la unidad ONU servicio analítico proporcionado por la web de Google, Inc. ( “Google“). Google Analytics utilización Las Llamadas “cookies”, Archivos de Texto Que Se instalan En El Ordenador Y Que Hacen Posible el Análisis del Comportamiento de los Usuarios En Internet. La Información Que la cookie de Géneros de Acerca del USO Que Realiza el usuario de la Página Web se Transmite y se almacena generalmente en los Servidores de Google de Estados Unidos. En Caso de Activar la Opción de IP anónima en La Página Web, la IP Dirección no aparecerá completa Dentro de los Países de la Unión Europea o en los Demás Países Que Así Lo Hayan Acordado Dentro del Espacio Económico de la Unión Europea. Solo excepcionalmente se transmitirá la Dirección IP completa Una unidad ONU Servidor de Google en Estados Unidos y Una vez alli se acortará. Unicamente con autorización f f del Usuario de la Página, Google utilizará esta forma con el fin de valorar el Comportamiento del Usuario en la Página Web, Generar Informes Sobre las actividades de la web y ofrecer al dueño La Página Elegida Servicios Relacionados Con El USO web y de Internet. Transmitida por La Dirección IP Su navegador en el marco de Google Analytics no se asociará con Otros datos de Google. El usuario PUEDE EVITAR EL Almacenamiento De las cookies Configurando EL Navegador correspondientemente de Manera Que No Se almacenen las cookies. Esta configuración PUEDE afectar a la plena Funcionalidad La Página Web Elegida. Con El USO de esta web, el usuario Está De Acuerdo Con El Procesamiento de datos por Google de la forma anteriormente mencionada. El usuario también PUEDE Evitar el registro de los Datos Generados Por Las galletas y de los Relacionados al USO de la Página Web (incluida la Dirección IP), Así Como el Procesamiento De Los Mismos Descargando e Instalando el siguiente plug-in para el Navegador disponible ONU a través de enlace Este: http://tools.google.com/dlpage/gaoptout\n<br>Todos Nuestros espacios publicitarios hijo comprados POR Terceros, por Dicha Razón ni hechizos.club ni SUS webmaster se Hacen responsable por Consultas, Movimientos, Pagos y Transacciones CUALQUIER ACTIVIDAD Realizada a partir Fuera de Nuestra web.\n<br><br><br></p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".panel-title-edit\" mbr-if=\"showSubtitle\"><b>Are you open for\n                                    collaborations?</b>\n                                </h6>\n                                <span class=\" panel-title-edit fa fa-chevron-down mbr-iconfont mbr-fonts-style\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Mobirise Kit is a service that provides the access to all current and new\n                                    themes/extensions developed by Mobirise. New themes/extensions are released every\n                                    month and will be available in your account during your plan period, without any\n                                    additional charge.</p>\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"card mb-3\" mbr-if=\"cardAmount > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed\" data-toggle=\"collapse\" data-bs-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h6 class=\"panel-title-edit mbr-fonts-style mb-0\" mbr-theme-style=\"display-5\" data-app-selector=\".panel-title-edit\" mbr-if=\"showSubtitle\"><b>Are you open for\n                                    collaborations?</b>\n                                </h6>\n                                <span class=\" panel-title-edit fa fa-chevron-down mbr-iconfont mbr-fonts-style\"></span>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\" data-bs-parent=\"#accordion\">\n                            <div class=\"panel-body\">\n                                <p class=\"mbr-fonts-style panel-text\" mbr-theme-style=\"display-4\" data-app-selector=\".panel-text\">\n                                    Yes, Mobirise is free for both non-profit and commercial sites.</p>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_isUserblock": true,
+          "_cid": "tFRxhzrByZ",
+          "_anchor": "article3-p",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "overflow": "hidden"
+          },
+          "_name": "footer7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"footer7\" group=\"Footers\" global once=\"footers\" mbr-class=\"{'mbr-reveal': reveal, 'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Reveal effect\" name=\"reveal\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../components/_images/background5.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#232323\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"media-container-row align-center mbr-white\">\n            <div class=\"col-12\">\n                <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".media-container-row .mbr-text\" data-app-placeholder=\"Type Text\">\n                    © Copyright 2023 Templo Espiritual - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tFRxhzIgUs",
+          "_anchor": "footer7-q",
           "_protectedParams": [],
           "_global": true,
           "_once": "footers",
